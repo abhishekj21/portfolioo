@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- REMIX ICONS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- HEADER PROFILE -->
+    <header class="profile container">
+      <!-- theme button -->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+      <div class="profile__container grid">
+        <div class="profile__data">
+          <div class="profile__border">
+            <div class="profile__perfile">
+              <!-- insert your image, according to the example size of the portfolio -->
+              <img src="./assets/CV_IMAGE.png" alt="" />
+            </div>
+          </div>
+
+          <h2 class="profile__name">Abhishek Singh</h2>
+          <h3 class="profile__profession">Web developer</h3>
+
+          <ul class="profile__social">
+            <a href="" target="_blank" class="profile__social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abhishek-singh-2858841b9/"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a
+              href="https://github.com/abhishekj21"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-github-fill"></i>
+            </a>
+          </ul>
+        </div>
+        <div class="profile__info grid">
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">Fresher</h3>
+            <p class="profile__info-description">Search for<br />Job</p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">4</h3>
+            <p class="profile__info-description">
+              Completed <br />
+              projects
+            </p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">Student</h3>
+            <p class="profile__info-description">
+              at <br />
+              SRMCEM
+            </p>
+          </div>
+        </div>
+        <div class="profile__buttons">
+          <!-- Resume Link Download From here -->
+          <a download="" href="./assets/Resume.pdf" class="button">
+            Download resume<i class="ri-download-fill"></i>
+          </a>
+
+          <div class="profile__buttons-small">
+            <a
+              href="https://api.whatsapp.com/send?phone=918299786933&text=Hello, more information!"
+              target="_blank"
+              class="button button__small button__gray"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a
+              href="tel:+91-829-9786-933"
+              target="_blank"
+              class="button button__small button__gray"
+            >
+              <i class="ri-phone-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <section class="filters container">
+        <!-- filters tab -->
+        <ul class="filters__content">
+          <button
+            class="filters__button filter-tab-active"
+            data-target="#projects"
+          >
+            Projects
+          </button>
+
+          <button class="filters__button" data-target="#skills">Skills</button>
+        </ul>
+        <div class="filters__sections">
+          <!-- projects -->
+          <div
+            class="projects__content grid filters__active"
+            data-content
+            id="projects"
+          >
+            <article class="projects__card">
+              <img src="./assets/work1.jpg" alt="" class="projects__img" />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Food Site</h3>
+                  <a href="#" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img src="./assets/work2.jpg" alt="" class="projects__img" />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Beats(Headphones) Site</h3>
+                  <a href="#" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img src="./assets/work3.jpg" alt="" class="projects__img" />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Real estate Site</h3>
+                  <a href="#" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img src="./assets/work4.jpg" alt="" class="projects__img" />
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Medical Services Site</h3>
+                  <a href="#" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- skills -->
+          <div class="skills__content grid" data-content id="skills">
+            <div class="skills__area">
+              <h3 class="skills__title">Frontend developer</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">HTML</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">css</h3>
+                      <span class="skills__level">intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Javascript</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">C++</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Git</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Python</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Testimonial Section -->
+
+    <div class="main-container">
+      <div class="mini-container">
+        <div class="image">
+          <img src="./assets/img1.jpg" alt="" />
+        </div>
+        <div class="name-work">
+          <span class="name">Ishan</span>
+          <span class="work">Web Developer <br />in Payu</span>
+        </div>
+        <div class="Aboutme">
+          <span>Passionate about programming</span>
+        </div>
+      </div>
+
+      <div class="mini-container">
+        <div class="image">
+          <img src="./assets/img1.jpg" alt="" />
+        </div>
+        <div class="name-work">
+          <span class="name">Kaunesh Tiwari </span>
+          <span class="work"
+            >Web Developer<br />
+            frontend developer</span
+          >
+        </div>
+        <div class="Aboutme">
+          <span>Abhishek is a hardworking man</span>
+        </div>
+      </div>
+    </div>
+    <script src=""></script>
+    <!-- MAIN JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>
