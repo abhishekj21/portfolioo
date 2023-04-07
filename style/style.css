@@ -410,6 +410,36 @@ body.dark-theme {
   .skills__box {
     column-gap: 1rem;
   }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-container .mini-container {
+    width: 60%;
+    height: 65%;
+  }
+  .main-container .name-work .name {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .main-container .name-work .work {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .main-container .Aboutme {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    line-height: 18px;
+  }
+  .mini-container .image img {
+    width: 90px;
+    height: 90px;
+    padding-top: 4px;
+  }
 }
 
 /*************for medium devices *****************/
