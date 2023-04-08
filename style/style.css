@@ -391,7 +391,7 @@ body.dark-theme {
 
 /* **********EMAIL SECTION*********** */
 
-.emailSection {
+/* .emailSection {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -416,15 +416,9 @@ form h3 {
   color: black;
   font-weight: 800;
   margin-bottom: 20px;
-}
-
-/* form input {
-  margin-bottom: 20px;
-  padding: 10px 100px;
-  text-align: center;
 } */
 
-form input,
+/* form input,
 form textarea {
   border: 0;
   margin: 10px 0;
@@ -432,9 +426,9 @@ form textarea {
   outline: none;
   background-color: #f5f5f5;
   font-size: 16px;
-}
-form button {
-  /* margin-top: 20px; */
+} */
+/* form button {
+ 
   width: 120px;
   height: 40px;
   border-radius: 7px;
@@ -445,7 +439,7 @@ form button {
   outline: none;
   border: 0;
   margin-top: 14px;
-}
+} */
 /**************break points*****************/
 
 /* for small device */
