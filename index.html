@@ -275,9 +275,19 @@
       </div>
     </div>
     <!-- Contact Me Section -->
-    <div class="emailSection"></div>
+    <div class="emailSection">
+      <form>
+        <h3>GET IN TOUCH</h3>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Email id" required />
+        <input type="text" id="phone" placeholder="Phone no." required />
+        <textarea id="message" rows="4" placeholder="Text me"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
     <script src=""></script>
     <!-- MAIN JS -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
